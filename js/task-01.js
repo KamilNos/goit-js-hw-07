@@ -5,5 +5,5 @@ for (const item of categoryItems) {
   const categoryElements = item.querySelectorAll("ul li");
   const numberOfElements = categoryElements.length;
   console.log("Category: " + title);
-  console.log("Elements: " + numberOfElements);
+  console.log("Elements: ", numberOfElements);
 }
